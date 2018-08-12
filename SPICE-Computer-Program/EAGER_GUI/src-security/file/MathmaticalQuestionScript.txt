@@ -1,0 +1,316 @@
+##pattern for the mathematics Questions
+<before-block-instruction>100004</before-block-instruction>
+######################################## maths question 1 #################################
+130000
+<Question>
+<Q>Johnson Import Company reported an increase in first quarter profits. However, based on information obtained about their sales and inventory, our company believes this is an overestimate.Please calculate inventory discrepancies to determine if our analysis is correct. 
+If the actual inventory (the sum of the difference between Units Sold and the Inventory below) is greater than reported inventory, this may be an overestimate.</Q>
+<Options_list=fill_in>
+<option>
+[!Warehouse 1 (In Units Sold)]:[124]
+[!Inventory]:[200]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Warehouse 2 (In Units Sold)]:[13]
+[!Inventory]:[125]
+[!Calculate the Difference]=[]
+<Answer>126</Answer>
+</option>
+<option>
+[!Warehouse 3 (In Units Sold)]:[55]
+[!Inventory]:[200]
+[!Calculate the Difference]=[]
+<Answer>127</Answer>
+</option>
+<option>
+[!Retail Inventory]:[310]
+[!Calculate the Difference]=[]
+<Answer>128</Answer>
+</option>
+<option>
+[!Calculate the Total Inventory (i.e., sum or “add up” A through D)]=[]
+<Answer>129</Answer>
+</option>
+<option>
+[!First Quarterly Reported inventory]=[]
+<Answer></Answer>
+</option>
+</Options_list>
+
+<Q>Actual Inventory (from your calculations)—if actual inventory is greater than reported, profits may be lower than the company’s published report.
+ Do you think Johnson Import Company over reported their first quarter profits?
+</Q>
+<Options_list=radio>
+<option>
+[!Yes]:[]
+[!No]:[]
+<Answer>Yes</Answer>
+</option>
+</Options_list>
+<Instruction>Send email reporting conclusions to supervisor</Instruction>
+</Question>
+######################################## maths question 2 #################################
+130001
+<Question>
+<Q>Sidekick Electronics reported that their first quarter profits were lower than analytics expectations. However, based on information obtained on sales and inventory, our company believes this may be an under-estimate since they have been on a stock buyback program. Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between Units Sold and the Inventory below) is lower than reported inventory, this may be an underestimate.</Q>
+<Options_list=fill_in>
+<option>
+[!Warehouse 1 (In Units Sold)]:[240]
+[!Inventory]:[200]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Warehouse 2 (In Units Sold)]:[130]
+[!Inventory]:[125]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Warehouse 3 (In Units Sold)]:[300]
+[!Inventory]:[200]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Retail Inventory]:[410]
+[!Retail Inventory]:[550]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Calculate the Total Inventory (i.e., sum or “add up” A through D)]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!First Quarterly Reported inventory]=[325]
+<Answer></Answer>
+</option>
+</Options_list>
+
+<Q>Actual Inventory (from your calculations)—if actual inventory is lower than reported, profits may be greater than the company’s published report. 
+Do you think Sidekick Electronics Company under reported their first quarter profits?
+</Q>
+<Options_list=radio>
+<option>
+[!Yes]:[]
+[!No]:[]
+<Answer>Yes</Answer>
+</option>
+</Options_list>
+<Instruction>Send email reporting conclusions to supervisor</Instruction>
+</Question>
+######################################## maths question 3 #################################
+130002
+<Question>
+<Q>Master Engine parts Company reported that their first quarterly profits were lower than analyst's expectations. However, based on information obtained on sales and inventory, our company believes this may be an under-estimate since they have been on a stock buyback program.  Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between Units Sold and the Inventory below) is lower than reported inventory, this may be an underestimate.
+</Q>
+<Options_list=fill_in>
+<option>
+[!Warehouse 1 (In Units Sold)]:[210]
+[!Inventory]:[200]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Warehouse 2 (In Units Sold)]:[131]
+[!Inventory]:[120]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Warehouse 3 (In Units Sold)]:[CURRENTLY UNKNOWN]
+[!Inventory]:[100]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Retail Inventory]:[310]
+[!Retail Inventory]:[350]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Calculate the Total Inventory (i.e., sum or “add up” A through D)]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!First Quarterly Reported inventory]=[328]
+<Answer></Answer>
+</option>
+</Options_list>
+
+<Q>Actual Inventory (from your calculations)—if actual inventory is lower than reported, profits may be greater than the company’s published report. 
+Do you think Master Engine parts Company under reported their first quarter profits?
+</Q>
+<Options_list=radio>
+<option>
+[!Yes]:[]
+[!No]:[]
+<Answer>Yes</Answer>
+</option>
+</Options_list>
+<Instruction>Send email reporting conclusions to supervisor-Do you think Master Engine parts Company under reported their first quarter profits?
+</Instruction>
+</Question>
+######################################## maths question 4 #################################
+130003
+<Question>
+<Q>Gladstone South-American Imports reported first quarter profits greater than the previous year end profits. However, based on information obtained on sales and inventory, our company believes this is an over-estimate. Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between Units Sold and the Inventory below) is greater than reported inventory, this may be an overestimate.
+</Q>
+<Options_list=fill_in>
+<option>
+[!Warehouse 1 (In Units Sold)]:[100]
+[!Inventory]:[200]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Warehouse 2 (In Units Sold)]:[25]
+[!Inventory]:[125]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Warehouse 3 (In Units Sold)]:[55]
+[!Inventory]:[200]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Retail Inventory]:[210]
+[!Retail Inventory]:[400]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Calculate the Total Inventory (i.e., sum or “add up” A through D)]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!First Quarterly Reported inventory]=[375]
+<Answer></Answer>
+</option>
+</Options_list>
+
+<Q>Actual Inventory (from your calculations)—if actual inventory is greater than reported, profits may be lower than the company’s published report. 
+Do you think Gladstone South-American Imports over reported their first quarter profits?
+</Q>
+<Options_list=radio>
+<option>
+[!Yes]:[]
+[!No]:[]
+<Answer>Yes</Answer>
+</option>
+</Options_list>
+<Instruction>Send email reporting conclusions to supervisor-Do you think Gladstone South-American Imports over reported their first quarter profits?
+</Instruction>
+</Question>
+######################################## maths question 5 #################################
+130004
+<Question>
+<Q>Fortune Durable Equipment Company reported first quarter profits greater than the previous year end profits. However, based on information obtained on sales and inventory, our company believes this is an over-estimate. Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between Units Sold and the Inventory below) is greater than reported inventory, this may be an overestimate.
+</Q>
+<Options_list=fill_in>
+<option>
+[!Warehouse 1 (In Units Sold)]:[114]
+[!Inventory]:[203]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Warehouse 2 (In Units Sold)]:[CURRENTLY NOT KNOWN]
+[!Inventory]:[105]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Warehouse 3 (In Units Sold)]:[75]
+[!Inventory]:[199]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Retail Inventory]:[610]
+[!Retail Inventory]:[750]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Calculate the Total Inventory (i.e., sum or “add up” A through D)]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!First Quarterly Reported inventory]=[325]
+<Answer></Answer>
+</option>
+</Options_list>
+
+<Q>Actual Inventory (from your calculations)—if actual inventory is greater than reported, profits may be lower than the company’s published report. 
+Do you think Fortune Durable Equipment Company over reported their first quarter profits?
+</Q>
+<Options_list=radio>
+<option>
+[!Yes]:[]
+[!No]:[]
+<Answer>Yes</Answer>
+</option>
+</Options_list>
+<Instruction>Send email reporting conclusions to supervisor-Do you think Fortune Durable Equipment Company over reported their first quarter profits?
+</Instruction>
+</Question>
+######################################## maths question 6 #################################
+130005
+<Question>
+<Q>APEX Paper Supplies reported their first quarter profits were lower than analyst's expectations. However, based on information obtained on sales and inventory, our company believes this is an under-estimate. Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between Units Sold and the Inventory below) is lower than reported inventory, this may be an underestimate.
+</Q>
+<Options_list=fill_in>
+<option>
+[!Warehouse 1 (In Units Sold)]:[210]
+[!Inventory]:[200]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Warehouse 2 (In Units Sold)]:[131]
+[!Inventory]:[120]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Warehouse 3 (In Units Sold)]:[123]
+[!Inventory]:[100]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Retail Inventory]:[310]
+[!Retail Inventory]:[350]
+[!Calculate the Difference]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!Calculate the Total Inventory (i.e., sum or “add up” A through D)]=[]
+<Answer>125</Answer>
+</option>
+<option>
+[!First Quarterly Reported inventory]=[728]
+<Answer></Answer>
+</option>
+</Options_list>
+
+<Q>Actual Inventory (from your calculations)—if actual inventory is lower than reported, profits may be greater than the company’s published report. 
+Do you think APEX Paper Supplies under reported their first quarter profits?
+</Q>
+<Options_list=radio>
+<option>
+[!Yes]:[]
+[!No]:[]
+<Answer>Yes</Answer>
+</option>
+</Options_list>
+<Instruction>Send email reporting conclusions to supervisor-Do you think APEX Paper Supplies under reported their first quarter profits?
+</Instruction>
+</Question>

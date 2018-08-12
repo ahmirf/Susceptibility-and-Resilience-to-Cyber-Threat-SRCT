@@ -1,0 +1,75 @@
+####comments!---
+1000
+<dialog>
+<type>INSTALLATION-DIALOG</type>
+<icon></icon>
+<message>Do you want to allow the following program from an unknown publisher to make changes to the computer?</message>
+<name-value>Program name:|Xmusic.1.0.Installer.exe</name-value>
+<name-value>Publisher name:|XMusic</name-value>
+<name-value>File origin:|Downloaded from Internet</name-value>
+<name-value>Program location:|"F:\Xmusic.1.0.Installer.exe"</name-value>
+</dialog>
+
+1001
+<dialog>
+<type>INSTALLATION-DIALOG</type>
+<message>Do you want to allow the following program from an unknown publisher to make changes to the computer?</message>
+<name-value>Program name:|GNOCIA.1.0.Installer.exe</name-value>
+<name-value>Publisher name:|Unknown</name-value>
+</dialog>
+
+1002
+<dialog>
+<type>INSTALLATION-DIALOG</type>
+<icon></icon>
+<message>Do you want to allow the following program from an unknown publisher to make changes to the computer?</message>
+<name-value>Program name:|GNOCIA.1.0.Installer.exe</name-value>
+<name-value>Publisher name:|Unknown</name-value>
+<name-value>File origin:|Downloaded from Internet</name-value>
+<name-value>Program location:|"F:\GNOCIA.1.0.Installer.exe"</name-value>
+</dialog>
+
+1003
+<dialog>
+<type>FORM_RESET_EMAIL_PWD</type>
+</dialog>
+
+1004 
+<dialog>
+<type>MP3-DOWNLOAD</type>
+<icon></icon>
+<message>Do you want to download the following file to your computer?</message>
+<name-value>Program name:|song.mp3</name-value>
+<name-value>Publisher name:|Titanic</name-value>
+<name-value>File origin:|Downloaded from Internet</name-value>
+</dialog>
+
+1005
+<dialog>
+<type>FORM_GET_INFO</type>
+</dialog>
+
+1006
+<dialog>
+<type>INVENTORY_INFO_SHOW_GLADSTONE</type>
+<message>Warehouse 2 inventory sold was 25</message>
+</dialog>
+
+1007
+<dialog>
+<type>INVENTORY_INFO_SHOW_DURABLE</type>
+<message>Warehouse 2 inventory sold was 206</message>
+</dialog>
+
+1008
+<dialog>
+<type>FORM_GET_USERNAME_PWD</type>
+</dialog>
+
+1009
+<dialog>
+<type>INVENTORY_INFO_SHOW</type>
+<username>johnny1</username>
+<password>badcfehg123</password>
+<message>Warehouse 3 inventory sold was 125</message>
+</dialog>

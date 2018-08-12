@@ -1,0 +1,176 @@
+#*******************************************************************************************************************************************
+#THIS IS AN EXAMPLE OF EMAIL FORMAT ##lines starting with hash sign will be treated as comment
+#use everything in small case letter
+#you can add as many lines starting with # as you want for commenting
+#*******************************************************************************************************************************************
+#EACH EMAIL WILL SHOUDLD START WITH 6 DIGIT NUMBER IN A SINGLE LINE
+#THEN 'FROM','TO','SUBJECT' AND 'MESSAGE' ARE MANDATORY 
+#ONLY 'MESSAGE' FIELD CAN HAVE MULTIPLE LINES
+#EACH MESSGAE IS IN HTML FORMAT 
+#VARIABLES LIKE company_name THAT NEEDS TO BE REPLACED SHOULD BE WRITTEN AS %(company_name)s FOR COMPANY NAME AND %(name)s FOR PARTICIPANT NAME, 
+#*******************************************************************************************************************************************
+
+120000
+<tag>WELCOME EMAIL</tag>
+<from>BradSmith%(company_email)s</from>
+<to>%(name)s%(company_email)s</to>
+<subject>Welcome to  %(company_name)s</subject>
+<dialog></dialog>
+<message>
+<html><body><p>Hello  %(name)s!,</p>
+<p>Welcome to %(company_name)s!</p>
+<p>As a valuable member of our accounting team, you’ll be helping us by determining how our competitors are actually doing relative to their published financial reports. To do this, we’ll be having you solve some accounting problems.  We use software designed to track technology advances, product sales, and warehouse  inventory at competing companies. Part of your new job is to monitor competitors’ stock prices and press releases so we can react to market changes in a timely manner. </p>
+ 
+<p>Of course, while doing so, you’ll also need to respond to emails and internal chat communications from co-workers.</p>
+
+<p>**Remember, the more correct information you supply the greater your compensation!**</p>
+
+<p>
+Best, 
+Brad Smith 
+Chief Executive Officer 
+%(company_name)s
+</p>
+</body></html>
+</message>
+
+120001
+<tag>EMAIL DOWNLOAD INSTALLER</tag>
+<from>musicalnights@music.com</from>
+<to>%(name)s%(company_email)s</to>
+<subject>install music player</subject>
+<dialog>1000</dialog>
+<message>
+<p>Hi %(name)s!,</p>
+<p>Would you like to download a free music player?</p>
+<p><a href="http://www.music-love.com/download">http://www.music-love.com/download</a> </p>
+<p>
+Regards,
+Musical Nights pvt. Ltd.</p>
+</message>
+
+120002
+<tag>PHISHING EMAIL#1</tag>
+<from>secureServices%(company_email)s</from>
+<to>%(name)s%(company_email)s</to>
+<subject>violation alert!!</subject>
+<dialog>1003</dialog>
+<message>Hi %(name)s!,
+<p>This email was sent to you because of violation security breach was detected by our web email servers. Servers detected that one of the messages you send was infected with a dangerous virus.  You may no longer be allowed to send messages or files to users to prevent spread of the virus.</p>  
+<p>Click on the link to reset your email account and password to get upgraded protection:</p>
+<p> <a href="http://reset.cn/5885945/reset.php" target="_blank">http://reset.cn/5885945/reset.php</a> </p>
+<p>Regards,
+- IT Department</p>
+</message>
+
+120003
+<tag>HACKING EMAIL#1</tag>
+<from>Johnny%(company_email)s</from>
+<to>%(name)s%(company_email)s</to>
+<subject>Help for you!! </subject>
+<dialog>1009</dialog>
+<message>
+Hey %(name)s!,
+<p></p>
+<p>Figured I’d help you out a little on your first day. So you probably heard I used to work for Master Engine Parts.  Well I still have my username and password to get VPN access into their system.  If you use it, you can get an update about sales at Warehouse 3.  But DO NOT let the boss catch you, or we’ll both be in serious trouble</p>
+<p>This link  <a href="http://MasterEngine.com/files/auditReports/34754656757454u6534asdb3434" target="_blank"> http://MasterEngine.com/files/auditReports/34754656757454u6534asdb3434 </a> will allow you access to a program that gets you access into the servers at Master Engine Parts so you can check on inventories.</p>
+<p>Username: johnny1</p>
+<p>Password: badcfehg123</p>
+<p>Well, Good Luck!!</p>
+<p></p>
+<p>-Johnny</p>
+</message>
+
+120004
+<tag>PHISHING EMAIL#2</tag>
+<from>luckyDraw@giveaway.com</from>
+<to>%(name)s%(company_email)s</to>
+<subject>congratulations!!!You are a winner </subject>
+<dialog>1005</dialog>
+<message>
+<html><body>
+<p>CONGRATULATIONS!!! YOU ARE A WINNER OF 20,000!!!!  CLICK LINK BELOW TO CLAIM YOUR PRIZE!!! </p>
+<p><a href="http://getawesompriz.biz" target="_blank">http://getawesompriz.biz</a> </p>
+</body></html>
+</message>
+
+120005
+<tag>PHISHING EMAIL#3</tag>
+<from>secureServices%(company_email)s</from>
+<to>%(name)s%(company_email)s</to>
+<subject>VIRUS detected!!! </subject>
+<dialog>1003</dialog>
+<message>
+<p>Hello %(name)s!,</p>
+<p>SYSTEM VIRUSES ARE DETECTED!!!!  CLICK HERE TO RESET PASSWORDS!!!</p>
+<p> <a href="http://reset.cn/545dgfg/reset.php" target="_blank">http://reset.cn/545dgfg/reset.php</a> </p>
+<p>-IT Departments</p>
+</message>
+
+120006
+<tag>HACKING EMAIL#2</tag>
+<from>Joanne%(company_email)s</from>
+<to>%(name)s%(company_email)s</to>
+<subject>Insider help (Gladstone company)</subject>
+<dialog>1006</dialog>
+<message>
+<html><body>
+<p>Hi %(name)s!,</p>
+<p>Glad to be working with you!  Let me give you some insider help.  The website <a href="http://gladstoneImports.com/files/auditReports/345645" target="_blank"> http://gladstoneImports.com/files/auditReports/345645 </a> will allow you access to a program that gets you access into the servers at Gladstone South-American Imports so you can check on inventories.  </p>
+<p>Best,
+Joanne</p>
+</body></html>
+</message>
+
+120007
+<tag>HACKING EMAIL#3</tag>
+<from>Joanne%(company_email)s</from>
+<to>%(name)s%(company_email)s</to>
+<subject>Insider help (Durable company)</subject>
+<dialog>1007</dialog>
+<message>
+<html><body>
+<p>Hi %(name)s!,</p>
+<p>Me again--  The website <a href="http://durable.com/files/auditreports/1212" target="_blank"> http://durable.com/files/auditreports/1212 </a>  will allow you access to a program that get you access into the servers at Durable Equipment Company so you can check on inventories.</p>
+<p>Best,
+Joanne</p>
+</body></html>
+</message>
+
+120008
+<tag>EMAIL#1</tag>
+<from>Breck%(company_email)s</from>
+<to>%(name)s%(company_email)s</to>
+<subject>chance to win an XBox 3 </subject>
+<dialog>1005</dialog>
+<message>
+<html><body>
+<p>Dear %(name)s!,</p>
+<p>Click the link below to get lucky to win an XBox 3. Limited!! So hurry up.</p>
+<a href=" http://%(company_name)s.com/luckyPrize=234?cookie=456775" target="_blank"> http://%(company_name)s.com/luckyPrize</a>
+<p>Regards,
+Breck</p>
+</body></html>
+</message>
+
+120009
+<tag>EMAIL#2</tag>
+<from>MarkZuck@facebooks.com</from>
+<to>%(name)s%(company_email)s</to>
+<subject>chance to visit Facebooks company</subject>
+<dialog>1008</dialog>
+<message>
+<html><body>
+<p>Dear %(name)s!,</p>
+<p>
+Facebooks Inc. is sponsoring a private tour of our company for some of the lucky people willing to visit us and spend 2 days here. This is a part of knowus campaign we are initiating to help people know better about our company</p>
+<p>Your company %(company_name)s has contacted us for 10 members including you for this offer.
+Please let us know about your willingness to visit by clicking the link below. Please ignore this email if you do not wish to visit our company</p>
+<p><a href="http://facebooks.com/knowus-campaign/" target="_blank"> http://facebooks.com/knowus-campaign/</a></p>
+</p>
+<p>Regards,
+Mark Zuck
+Founder
+Facebooks Inc,</p>
+</body></html>
+</message>

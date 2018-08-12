@@ -1,0 +1,20 @@
+#if the probe-position is empty (i.e. <probe-position></probe-position>), then the probe position will be randomly choosen
+<word-probe> 
+<block>0</block>
+<before-block-instruction>100004</before-block-instruction>
+<threat-words>one,two ,three ,four</threat-words>
+
+<neutral-words>two,ten,seven,nine</neutral-words>
+
+<after-block-instruction></after-block-instruction>
+</word-probe>
+
+<word-probe> 
+<block>1</block>
+<before-block-instruction>100005</before-block-instruction>
+<threat-words>PANICKY, DESPERATE, CRINGING, CRINGING</threat-words>
+
+<neutral-words>CLARETS,VARIABLES,NECKLACE,EDITIONS</neutral-words>
+
+<after-block-instruction>100006,100008</after-block-instruction>
+</word-probe>

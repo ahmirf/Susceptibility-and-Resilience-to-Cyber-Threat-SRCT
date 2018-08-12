@@ -1,0 +1,91 @@
+##instruction id must be of 6 digit
+##each  instruction  starts with the <instruction id   = XXXXXX>  and ends with <\instruction>
+##
+#######################################################################
+
+<instruction id   =   100000>PICTURE TASK
+
+The goal of the following task is to hit one of two keys to indicate if a dot appears at the top or bottom of the computer screen. During the task, pictures will flash briefly on the computer screen followed by a dot.
+
+When the task begins, rest your middle finger on the "i" key and your index finger on the "m" key. Tap the "i" key if the dot appears at the top of the screen and the "m" key if the dot appears at the bottom of the screen.
+
+Before each set of pictures, you will see an "X" in the center of the screen. This lets you know that the next set of pictures and dot are about to appear.
+
+Are you ready for some practice?
+
+If "YES" press the "SPACE" on your keyboard.
+<\instruction>
+
+<instruction id=100001>You now have a short break. Press the "SPACE" on your keyboard when you're ready to begin the next section.<\instruction>
+
+<instruction id=100002>When you feel rested and ready to begin again, press the "SPACE" on your keyboard to begin the next section.<\instruction>
+ 
+<instruction id=100003>You have finished the pictures task. Thank you for all of your hard work.<\instruction>
+ ################next instruction start ####################
+<instruction id = 100004>Welcome to the Dot Probe Task!
+
+
+In the following task
+
+
+* First: you will see three fixation crosses in the center of the screen. Please use these fixation crosses to focus your vision.
+
+
+* Second: two words will appear, one above and one below the center of the screen for a short duration of time
+
+
+* Third: either '<' or '>' will appear in either one of the two locations of the previously shown words
+
+
+YOUR TASK:
+
+* if you see < press the '<' key on your keyboard as fast as you can
+
+* if you see > press the '>' key on your keyboard as fast as you can
+
+
+
+To familiarize yourself with the task, please continue on to some practice trials. If you make a mistake during practice, a red X will appear in the middle of the screen.
+
+<\instruction>
+################next instruction start ####################
+<instruction id   =   100005>Practice is over. If you have any questions, please ask your experimenter now.
+
+
+Remember:
+
+* Focus you vision on the fixation crosses
+
+
+* Then:
+
+if you see < press the '<' key on your keyboard as fast as you can
+
+if you see > press the '>' key on your keyboard as fast as you can
+
+
+
+Be as fast and accurate as you can possibly be.
+
+
+
+When you are ready, continue on to the actual task. There is not going to be any feedback during the actual task.
+
+<\instruction>
+################next instruction start ####################
+<instruction id   =   100006>Thank you for your participation!
+
+<\instruction>
+<instruction id=100007>Thank you for participation.
+Please let the experimenter know that you have finished the task.
+
+Please Press "SPACE" bar on your keyboard to close this application.
+							Thank you.
+
+<\instruction>
+<instruction id   =   100008>On the next few screens imagine that you have just begun a new job on an accounting team at a generator manufacturing company.  In this job you will be helping to determine how competing companies are doing in terms of actual sales relative to their reports of sales.
+ To do this, you will need to solve several accounting problems. In these accounting problems you will have data from the competing companies warehouse inventory. You will have data on “actual inventory” derived from public shipping documents such as railroad and trucking manifests (when available) and “reported inventory” derived from the company’s semi-annual reports.
+ Greater amounts of actual inventory compared to reported inventory will give an indication that the competing companies are inflating their profitability (i.e., they say they are selling more than they actually are).Your main goal is to accurately identify if this is occurring.  
+
+While you are solving these accounting problems, you will also need to read emails and attend to other computer tasks (such as updating software).  You should read the emails and alerts closely and before moving ahead because you will need to carefully decide how to respond to some emails and address the pop ups because these could affect your ability to complete your main task.
+<\instruction>

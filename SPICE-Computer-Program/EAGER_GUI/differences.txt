@@ -1,0 +1,276 @@
+diff -r -x '*.pyc' src/file/MathmaticalQuestionScript.txt "c:\\Users\\jgrimm\\Downloads\\EAGER_March2016_from_cust\\EAGER_March2016\\eager_gui\\src/file/MathmaticalQuestionScript.txt"
+1a2
+> <before-block-instruction>100004</before-block-instruction>
+5,7c6,7
+< <Q>Johnson Import Company reported an increase in first quarter profits. However, based on information obtained about their sales and inventory, our company believes this is an overestimate. Please calculate inventory discrepancies to determine if our analysis is correct. 
+< 
+< If the actual inventory (the sum of the difference between Units Sold and the Inventory below) is greater than reported inventory, this may be an overestimate.</Q>
+---
+> <Q>Johnson Import Company reported an increase in first quarter profits. However, based on information obtained about their sales and inventory, our company believes this is an overestimate. Please calculate inventory discrepancies to determine if our analysis is correct.  
+> If the actual inventory (the sum of the difference between "units sold" and the inventory below) is greater than reported inventory, this may be an overestimate.</Q>
+28c28,29
+< [!Retail Inventory]:[310]
+---
+> [!Warehouse 4 (In Units Sold)]:[310]
+> [!Inventory]:[550]
+37c38
+< [!First Quarterly Reported inventory]=[]
+---
+> [!First Quarter Reported inventory]=[325]
+42,43c43,44
+< <Q>Actual Inventory (from your calculations)—if actual inventory is greater than reported, profits may be lower than the company’s published report
+< Do you think Johnson Import Company over reported their first quarter profits?
+---
+> <Q>Actual Inventory (from your calculations) — if actual inventory is greater than reported, profits may be lower than the company’s published report.
+>  Do you think Johnson Import Company over reported their first quarter profits?
+57c58
+< <Q>Sidekick Electronics reported that their first quarter profits were lower than analytics' expectations. However, based on information obtained on sales and inventory, our company believes this may be an under-estimate since they have been on a stock buyback program. Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between Units Sold and the Inventory below) is lower than reported inventory, this may be an underestimate.</Q>
+---
+> <Q>Sidekick Electronics reported that their first quarter profits were lower than analytics expectations. However, based on information obtained on sales and inventory, our company believes this may be an under-estimate since they have been on a stock buyback program. Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between "units sold" and the inventory below) is lower than reported inventory, this may be an underestimate.</Q>
+78,79c79,80
+< [!Retail Inventory]:[410]
+< [!Retail Inventory]:[550]
+---
+> [!Warehouse 4 (In Units Sold)]:[410]
+> [!Inventory]:[550]
+93c94
+< <Q>Actual Inventory (from your calculations)—if actual inventory is lower than reported, profits may be greater than the company’s published report
+---
+> <Q>Actual Inventory (from your calculations) — if actual inventory is lower than reported, profits may be greater than the company’s published report. 
+108c109
+< <Q>Master Engine parts Company reported that their first quarterly profits were lower than analyst's expectations. However, based on information obtained on sales and inventory, our company believes this may be an under-estimate since they have been on a stock buyback program.  Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between Units Sold and the Inventory below) is lower than reported inventory, this may be an underestimate.
+---
+> <Q>Master Engine Parts Company reported that their first quarterly profits were lower than analyst's expectations. However, based on information obtained on sales and inventory, our company believes this may be an underestimate since they have been on a stock buyback program. Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between "units sold" and the inventory below) is lower than reported inventory, this may be an underestimate.
+130,131c131,132
+< [!Retail Inventory]:[310]
+< [!Retail Inventory]:[350]
+---
+> [!Warehouse 4 (In Units Sold)]:[310]
+> [!Inventory]:[350]
+145c146,147
+< <Q>Actual Inventory (from your calculations)—if actual inventory is lower than reported, profits may be greater than the company’s published report
+---
+> <Q>Actual Inventory (from your calculations) — if actual inventory is lower than reported, profits may be greater than the company’s published report. 
+> Do you think Master Engine Parts Company under reported their first quarter profits?
+160c162
+< <Q>Gladstone South-American Imports reported first quarter profits greater than the previous year end profits. However, based on information obtained on sales and inventory, our company believes this is an over-estimate. Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between Units Sold and the Inventory below) is greater than reported inventory, this may be an overestimate.
+---
+> <Q>Gladstone South-American Imports reported first quarter profits greater than the previous year end profits. However, based on information obtained on sales and inventory, our company believes this is an over-estimate. Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between "units sold" and the inventory below) is greater than reported inventory, this may be an overestimate.
+182,183c184,185
+< [!Retail Inventory]:[210]
+< [!Retail Inventory]:[400]
+---
+> [!Warehouse 4 (In Units Sold)]:[210]
+> [!Inventory]:[400]
+197c199,200
+< <Q>Actual Inventory (from your calculations)—if actual inventory is greater than reported, profits may be lower than the company’s published report
+---
+> <Q>Actual Inventory (from your calculations) — if actual inventory is greater than reported, profits may be lower than the company’s published report. 
+> Do you think Gladstone South-American Imports over reported their first quarter profits?
+212c215
+< <Q>Fortune Durable Equipment Company reported first quarter profits greater than the previous year end profits. However, based on information obtained on sales and inventory, our company believes this is an over-estimate. Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between Units Sold and the Inventory below) is greater than reported inventory, this may be an overestimate.
+---
+> <Q>Fortune Durable Equipment Company reported first quarter profits greater than the previous year end profits. However, based on information obtained on sales and inventory, our company believes this is an over-estimate. Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between "units sold" and the inventory below) is greater than reported inventory, this may be an overestimate.
+234,235c237,238
+< [!Retail Inventory]:[610]
+< [!Retail Inventory]:[750]
+---
+> [!Warehouse 4 (In Units Sold)]:[610]
+> [!Inventory]:[750]
+249c252,253
+< <Q>Actual Inventory (from your calculations)—if actual inventory is greater than reported, profits may be lower than the company’s published report
+---
+> <Q>Actual Inventory (from your calculations) — if actual inventory is greater than reported, profits may be lower than the company’s published report. 
+> Do you think Fortune Durable Equipment Company over reported their first quarter profits?
+264c268
+< <Q>APEX Paper Supplies reported their first quarter profits were lower than analyst's expectations. However, based on information obtained on sales and inventory, our company believes this is an under-estimate. Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between Units Sold and the Inventory below) is lower than reported inventory, this may be an underestimate.
+---
+> <Q>APEX Paper Supplies reported their first quarter profits were lower than analyst's expectations. However, based on information obtained on sales and inventory, our company believes this is an underestimate. Please calculate inventory discrepancies to determine if our company's analysis is correct. If the actual inventory (the sum of the differences between "units sold" and the inventory below) is lower than reported inventory, this may be an underestimate.
+286,287c290,291
+< [!Retail Inventory]:[310]
+< [!Retail Inventory]:[350]
+---
+> [!Warehouse 4 (In Units Sold)]:[310]
+> [!Inventory]:[350]
+301c305,306
+< <Q>Actual Inventory (from your calculations)—if actual inventory is lower than reported, profits may be greater than the company’s published report
+---
+> <Q>Actual Inventory (from your calculations) — if actual inventory is lower than reported, profits may be greater than the company’s published report. 
+> Do you think APEX Paper Supplies under reported their first quarter profits?
+diff -r -x '*.pyc' src/file/dialogMessages.txt "c:\\Users\\jgrimm\\Downloads\\EAGER_March2016_from_cust\\EAGER_March2016\\eager_gui\\src/file/dialogMessages.txt"
+37d36
+< 
+55a55
+> <message>Warehouse 2 inventory sold was 216</message>
+60a61
+> <message>This information can be changed from dialogMessages.txt in folder "file"</message>
+65a67,74
+> </dialog>
+> 
+> 1009
+> <dialog>
+> <type>INVENTORY_INFO_SHOW</type>
+> <username>johnny1</username>
+> <password>badcfehg123</password>
+> <message>Warehouse 3 inventory sold was 125</message>
+diff -r -x '*.pyc' src/file/dot-probe.txt "c:\\Users\\jgrimm\\Downloads\\EAGER_March2016_from_cust\\EAGER_March2016\\eager_gui\\src/file/dot-probe.txt"
+19,23c19,23
+< <up>neu98.jpg,neu2190.jpg,neu142.jpg,neu156.jpg,neu180.jpg,neu83.jpg,neu10003.jpg,neu7234.jpg,neu56.jpg,neu87.jpg,neu7233.jpg,neu66.jpg,neu152.jpg,neu172.jpg,neu115.jpg,neu7140.jpg</up>
+< <up-type>Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral</up-type>
+< <down>neu62.jpg,neu43.jpg,neu80.jpg,neu150.jpg,neu28.jpg,neu144.jpg,neu7025.jpg,neu7900.jpg,neu188.jpg,neu131.jpg,neu140.jpg,neu50.jpg,neu185.jpg,neu95.jpg,neu109.jpg,neu57.jpg</down>
+< <down-type>Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral</down-type>
+< <probe-position>Down,Up,Up,Down,Down,Down,Down,Up,Down,Down,Up,Down,Up,Up,Up,Up</probe-position>
+---
+> <up>neu98.jpg,neu2190.jpg,neu142.jpg,neu156.jpg,neu180.jpg</up>
+> <up-type>Neutral,Neutral,Neutral,Neutral,Neutral</up-type>
+> <down>neu62.jpg,neu43.jpg,neu80.jpg,neu150.jpg,neu28.jpg</down>
+> <down-type>Neutral,Neutral,Neutral,Neutral,Neutral</down-type>
+> <probe-position>Down,Up,Up,Down,Down</probe-position>
+30,34c30,34
+< <up>neu71.jpg,neu82.jpg,neu178.jpg,neu102.jpg,neu123.jpg,neu126.jpg,e111.jpg,neu7705.jpg,neu7096.jpg,p1620.jpg,p204.jpg,neu105.jpg,neu136.jpg,p208.jpg,e106.jpg,e102.jpg,neu70.jpg,neu7710.jpg</up>
+< <up-type>Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Negative,Neutral,Neutral,Positive,Positive,Neutral,Neutral,Positive,Negative,Negative,Neutral,Neutral</up-type>
+< <down>p100.jpg,e101.jpg,neu59.jpg,e103.jpg,neu135.jpg,neu7040.jpg,neu34.jpg,neu2230.jpg,neu121.jpg,neu47.jpg,neu90.jpg,p5780.jpg,e9041.jpg,neu179.jpg,neu177.jpg,neu35.jpg,p5010.jpg,neu7186.jpg</down>
+< <down-type>Positive,Negative,Neutral,Negative,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Positive,Negative,Neutral,Neutral,Neutral,Positive,Neutral</down-type>
+< <probe-position>Up,Down,Down,Down,Up,Down,Down,Up,Down,Up,Up,Down,Up,Down,Up,Down,Up,Up</probe-position>
+---
+> <up>neu71.jpg,neu82.jpg,neu178.jpg,neu102.jpg,neu123.jpg</up>
+> <up-type>Neutral,Neutral,Neutral,Neutral,Neutral</up-type>
+> <down>p100.jpg,e101.jpg,neu59.jpg,e103.jpg,neu135.jpg</down>
+> <down-type>Positive,Negative,Neutral,Negative,Neutral</down-type>
+> <probe-position>Up,Down,Down,Down,Up</probe-position>
+41,45c41,45
+< <up>neu53.jpg,neu132.jpg,e2205.jpg,neu7030.jpg,neu37.jpg,neu113.jpg,neu154.jpg,neu89.jpg,neu7224.jpg,neu23.jpg,e126.jpg,e2900.jpg,p2340.jpg,neu170.jpg,neu7009.jpg,neu153.jpg,p1811.jpg,p2050.jpg</up>
+< <up-type>Neutral,Neutral,Negative,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Negative,Negative,Positive,Neutral,Neutral,Neutral,Positive,Positive</up-type>
+< <down>neu31.jpg,e122.jpg,neu184.jpg,p1750.jpg,neu81.jpg,p201.jpg,neu7035.jpg,e3301.jpg,neu33.jpg,neu7190.jpg,neu5520.jpg,neu118.jpg,neu138.jpg,p2360.jpg,e3230.jpg,neu169.jpg,neu160.jpg,neu7004.jpg</down>
+< <down-type>Neutral,Negative,Neutral,Positive,Neutral,Positive,Neutral,Negative,Neutral,Neutral,Neutral,Neutral,Neutral,Positive,Negative,Neutral,Neutral,Neutral</down-type>
+< <probe-position>Down,Up,Down,Down,Down,Down,Up,Up,Down,Up,Up,Up,Up,Up,Down,Up,Down,Down</probe-position>
+---
+> <up>neu53.jpg,neu132.jpg,e2205.jpg,neu7030.jpg,neu37.jpg</up>
+> <up-type>Neutral,Neutral,Negative,Neutral,Neutral</up-type>
+> <down>neu31.jpg,e122.jpg,neu184.jpg,p1750.jpg,neu81.jpg</down>
+> <down-type>Neutral,Negative,Neutral,Positive,Neutral</down-type>
+> <probe-position>Down,Up,Down,Down,Down</probe-position>
+52,56c52,56
+< <up>neu45.jpg,e2205.jpg,neu73.jpg,p2500.jpg,neu122.jpg,p5982.jpg,neu137.jpg,neu157.jpg,e126.jpg,neu2210.jpg,neu7006.jpg,neu103.jpg,neu110.jpg,e2900.jpg,p2040.jpg,neu65.jpg,neu51.jpg,neu129.jpg</up>
+< <up-type>Neutral,Negative,Neutral,Positive,Neutral,Positive,Neutral,Neutral,Negative,Neutral,Neutral,Neutral,Neutral,Negative,Positive,Neutral,Neutral,Neutral</up-type>
+< <down>neu6930.jpg,neu85.jpg,neu111.jpg,neu42.jpg,e122.jpg,neu7700.jpg,p2260.jpg,neu38.jpg,neu38.jpg,neu114.jpg,neu9830.jpg,neu164.jpg,p202.jpg,neu141.jpg,neu7170.jpg,neu21.jpg,e3301.jpg,e3230.jpg</down>
+< <down-type>Neutral,Neutral,Neutral,Neutral,Negative,Neutral,Positive,Neutral,Neutral,Neutral,Neutral,Positive,Neutral,Neutral,Neutral,Negative,Negative,Positive</down-type>
+< <probe-position>Down,Down,Down,Up,Up,Up,Up,Up,Up,Down,Down,Down,Down,Up,Down,Down,Up,Up</probe-position>
+---
+> <up>neu45.jpg,e2205.jpg,neu73.jpg,p2500.jpg,neu122.jpg</up>
+> <up-type>Neutral,Negative,Neutral,Positive,Neutral</up-type>
+> <down>neu6930.jpg,neu85.jpg,neu111.jpg,neu42.jpg,e122.jpg</down>
+> <down-type>Neutral,Neutral,Neutral,Neutral,Negative</down-type>
+> <probe-position>Down,Down,Down,Up,Up</probe-position>
+63,67c63,67
+< <up>neu171.jpg,neu108.jpg,p2070.jpg,neu22.jpg,neu125.jpg,neu10001.jpg,neu48.jpg,neu162.jpg,neu7010.jpg,neu7187.jpg,neu145.jpg,neu74.jpg,p5600.jpg,e2141.jpg,e108.jpg,neu25.jpg,p1920.jpg,e2276.jpg</up>
+< <up-type>Neutral,Neutral,Positive,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Positive,Negative,Negative,Neutral,Positive,Negative</up-type>
+< <down>p7350.jpg,p5870.jpg,neu176.jpg,neu5510.jpg,neu146.jpg,e118.jpg,e113.jpg,neu67.jpg,p2000.jpg,neu124.jpg,e125.jpg,neu36.jpg,neu107.jpg,neu7080.jpg,neu72.jpg,neu187.jpg,neu143.jpg,neu106.jpg</down>
+< <down-type>Positive,Positive,Neutral,Neutral,Neutral,Negative,Negative,Neutral,Positive,Neutral,Negative,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral</down-type>
+< <probe-position>Down,Up,Up,Up,Up,Up,Down,Up,Down,Up,Down,Up,Down,Down,Down,Down,Down,Up</probe-position>
+---
+> <up>neu171.jpg,neu108.jpg,p2070.jpg,neu22.jpg,neu125.jpg</up>
+> <up-type>Neutral,Neutral,Positive,Neutral,Neutral</up-type>
+> <down>p7350.jpg,p5870.jpg,neu176.jpg,neu5510.jpg,neu146.jpg</down>
+> <down-type>Positive,Positive,Neutral,Neutral,Neutral</down-type>
+> <probe-position>Down,Up,Up,Up,Up</probe-position>
+diff -r -x '*.pyc' src/file/emailMessages.txt "c:\\Users\\jgrimm\\Downloads\\EAGER_March2016_from_cust\\EAGER_March2016\\eager_gui\\src/file/emailMessages.txt"
+20c20
+< <html><body><p>Hello  %(name)s!,</p>
+---
+> <html><body><p>Hello  %(name)s!</p>
+58c58
+< <message>Hi %(name)s!,
+---
+> <message>Hi %(name)s!
+63c63
+< Mr. xyz</p>
+---
+> - IT Department</p>
+71c71
+< <dialog></dialog>
+---
+> <dialog>1009</dialog>
+75c75,80
+< <p>Figured I’d help you out a little on your first day.  So you probably heard I used to work for Master Engine Parts.  Well I still have my username and password to get VPN access into their system.  If you use it, you can get an update about sales at Warehouse 3.  But DO NOT let the boss catch you, or we’ll both be in serious trouble</p>
+---
+> <p>Figured I’d help you out a little on your first day. So you probably heard I used to work for Master Engine Parts.  Well I still have my username and password to get VPN access into their system.  If you use it, you can get an update about sales at Warehouse 3.  But DO NOT let the boss catch you, or we’ll both be in serious trouble</p>
+> <p>This link  <a href="http://MasterEngine.com/files/auditReports/34754656757454u6534asdb3434" target="_blank"> http://MasterEngine.com/files/auditReports/34754656757454u6534asdb3434 </a> will allow you access to a program that gets you access into the servers at Master Engine Parts so you can check on inventories.</p>
+> <p>Username: johnny1</p>
+> <p>Password: badcfehg123</p>
+> <p>Well, Good Luck!!</p>
+> <p></p>
+137c142
+< <from>Breck@%(company_email)s</from>
+---
+> <from>Breck%(company_email)s</from>
+diff -r -x '*.pyc' src/file/instructions.txt "c:\\Users\\jgrimm\\Downloads\\EAGER_March2016_from_cust\\EAGER_March2016\\eager_gui\\src/file/instructions.txt"
+84a85,88
+> <\instruction>
+> <instruction id=100008>On the next few screens imagine that you have just begun a new job on an accounting team at a generator manufacturing company. In this job you will be helping to determine how competing companies are doing in terms of actual sales relative to their reports of sales. To do this, you will need to solve several accounting problems. In these accounting problems you will have data from the competing company's warehouse inventory. You will have data on “actual inventory” derived from public shipping documents such as railroad and trucking manifests (when available) and “reported inventory” derived from the company’s semi-annual reports. Greater amounts of actual inventory compared to reported inventory will give an indication that the competing companies are inflating their profitability (i.e., they say they are selling more than they actually are). Your main goal is to accurately identify if this is occurring.  
+> 
+> While you are solving these accounting problems, you will also need to read emails and attend to other computer tasks (such as updating software). You should read the emails and alerts closely and before moving ahead because you will need to carefully decide how to respond to some emails and address the pop ups because these could affect your ability to complete your main task.
+diff -r -x '*.pyc' src/file/word-probe.txt "c:\\Users\\jgrimm\\Downloads\\EAGER_March2016_from_cust\\EAGER_March2016\\eager_gui\\src/file/word-probe.txt"
+5c5
+< <threat-words>one,two ,three ,four ,five ,six ,seven ,eight ,nine,ten</threat-words>
+---
+> <threat-words>one,two ,three ,four</threat-words>
+7c7
+< <neutral-words>two,ten,seven,nine,four,one,eight,three,five,six</neutral-words>
+---
+> <neutral-words>two,ten,seven,nine</neutral-words>
+15,20c15
+< <threat-words>PANICKY, DESPERATE, CRINGING, CRINGING, SCARED, CANCER, DANGER, ALARMED, CORONARY, TRAUMA, EDGY, EMERGENCY, DISTRESS, UNSETTLED, HOSTILE, CONFUSED, 
+< TOUCHY, FRIGHT, WORRIED, NAUSEA, DISEASE, WARY, SINISTER, MUTILATED, NERVOUS, ASSAULT, SUFFOCATING, CATASTROPHE, LOST, HARM, TENSE, JUMPY, DEFENSIVE, EMBARRASSED, 
+< LETHAL, APPREHENSION, AMBULANCE, ATTACK, HORROR, STRANGLED, AGITATION, INSECURE, INCURABLE, SUICIDE, FUNERAL, GRIEVING, TRAGEDY, WORTHLESS, UNPOPULAR, SAD, POINTLESS, 
+< GLUM, REJECTED, POWERLESS, SICKLY, DEVASTATED, INFERIOR, FAIL, DEFEAT, LONELY, FATIGUE, IGNORED, SLUGGISH, GROAN, MISERABLE, BROODING, UNFORTUNATE, DESPISED, PATHETIC, 
+< HUMILIATED, HAZARD, INTIMIDATED, QUAKING, TIMID, TEASE, DISMAL, HOPELESS, AWFUL, DESERTED, FUTILE, MOURN, DISCOURAGED, INADEQUATE, DISCONTENTED, INFORM, MISUNDERSTOOD, GLOOMY, 
+< USELESS, FORLORN, TORMENTED, DEATHBED, UNHAPPY, DULL, DREADFUL, COFFIN, MISTAKE</threat-words>
+---
+> <threat-words>PANICKY, DESPERATE, CRINGING, CRINGING</threat-words>
+22,27c17
+< <neutral-words>CLARETS,VARIABLES,NECKLACE,EDITIONS,PLANET,SADDLE,LEAGUE,SHELVES,RECEIPTS,ENJOIN,RINK,LISTENING,CREATURE,ADVOCATED,ROLLING,ARRANGED,
+< TINTED,SIPPED,CONTEXT,CONFER,REMARKS,FOLD,INTEGRAL,DECANTING,OUTCOME,BOTTLES,CONSTITUENT,APPROXIMATE,READ,NOON,BACKS,LOTUS,GEOMETRIC,
+< MICROSCOPIC,RACKET,INSTRUMENTAL,MOMENTARY,SEASON,WAGONS,SIGNATURE,FIREPLACE,FETCHING,RECLAIMED,SUMMERS,HUNTING,HALLMARK,REQUEST,BATTERIES,
+< SHORELINE,PAT,LUNCHROOM,KITE,QUANTITY,MULTITUDE,TOKENS,STAGECOACH,SHEARING,EARS,MUSEUM,JERSEY,AVOCADO,LIGHTED,TEXTURED,FLUTE,STATEWIDE,
+< PROTEINS,COMMODITIES,TOMATOES,CLEANERS,WATERPROOF,BALLOT,COEFFICIENT,ANAGRAM,SATIN,AISLE,MIDWAY,FEATHERS,TRACT,MARCHING,ATTIRE,SCANS,
+< CONNECTIONS,TRANSITION,HOUSEHOLDERS,DEPOTS,MANIFESTATION,PASTEL,FLOWING,KEYHOLE,MYTHOLOGY,SOFTENER,BRIDGES,FLEW,COMPUTER,EDITED,QUARTER</neutral-words>
+---
+> <neutral-words>CLARETS,VARIABLES,NECKLACE,EDITIONS</neutral-words>
+29c19
+< <after-block-instruction>100006</after-block-instruction>
+---
+> <after-block-instruction>100006,100008</after-block-instruction>
+diff -r -x '*.pyc' src/newOutline.py "c:\\Users\\jgrimm\\Downloads\\EAGER_March2016_from_cust\\EAGER_March2016\\eager_gui\\src/newOutline.py"
+1745,1760c1745,1758
+<                     style=wx.TextAttr()
+<                     widget.GetStyle(0,style)
+<                     if style.GetFlags() & wx.TE_READONLY == 0:
+<                         text = widget.GetValue().strip(" \t")
+<                         if not text == None and not text.strip() == 0:
+<                             if len(self.answerSouce) - 1 == self.answerSouceIndex - 1 and self.answerCheckIndex < len(self.answerSouce[self.answerSouceIndex - 1]):
+<                                 self.answerSouce[self.answerSouceIndex - 1][self.answerCheckIndex][3] = text
+<                                 self.userAnswer += text + "|"
+<                                 self.actualAnswer += self.answerSouce[self.answerSouceIndex - 1][self.answerCheckIndex][2] + "|"
+<                                 if text == self.answerSouce[self.answerSouceIndex - 1][self.answerCheckIndex][2]:
+<                                     self.mathsResult += RESPONSECODE.MATHS_CORRECT + "|"
+<                                 elif self.answerSouce[self.answerSouceIndex - 1][self.answerCheckIndex][2] == None or len(self.answerSouce[self.answerSouceIndex - 1][self.answerCheckIndex][2]) <= 0:
+<                                     self.mathsResult += RESPONSECODE.MATHS_UNKNOWN + "|"
+<                                 elif not self.answerSouce[self.answerSouceIndex - 1][self.answerCheckIndex][2] == text:
+<                                     self.mathsResult += RESPONSECODE.MATHS_INCORRECT + "|"
+<                                 self.answerCheckIndex += 1
+---
+>                     
+>                     text = widget.GetValue().strip(" \t")
+>                     if not text == None and not text.strip() == 0:
+>                         if len(self.answerSouce) - 1 == self.answerSouceIndex - 1 and self.answerCheckIndex < len(self.answerSouce[self.answerSouceIndex - 1]):
+>                             self.answerSouce[self.answerSouceIndex - 1][self.answerCheckIndex][3] = text
+>                             self.userAnswer += text + "|"
+>                             self.actualAnswer += self.answerSouce[self.answerSouceIndex - 1][self.answerCheckIndex][2] + "|"
+>                             if text == self.answerSouce[self.answerSouceIndex - 1][self.answerCheckIndex][2]:
+>                                 self.mathsResult += RESPONSECODE.MATHS_CORRECT + "|"
+>                             elif self.answerSouce[self.answerSouceIndex - 1][self.answerCheckIndex][2] == None or len(self.answerSouce[self.answerSouceIndex - 1][self.answerCheckIndex][2]) <= 0:
+>                                 self.mathsResult += RESPONSECODE.MATHS_UNKNOWN + "|"
+>                             elif not self.answerSouce[self.answerSouceIndex - 1][self.answerCheckIndex][2] == text:
+>                                 self.mathsResult += RESPONSECODE.MATHS_INCORRECT + "|"
+>                             self.answerCheckIndex += 1
